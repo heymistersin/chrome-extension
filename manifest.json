@@ -3,13 +3,19 @@
   "name": "screen-blocker",
   "version": "1.0.0",
   "description": "\"Block a screen for a set time\"",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "productivity"
-  ],
-  "author": "Daniel Sin, Ando Agamalian",
-  "license": "ISC"
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
 }
+  // "author": "Daniel Sin, Ando Agamalian"
+
+  // "scripts": {
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
+  // "keywords": [
+  //   "productivity"
+  // ],
+  // "license": "ISC"
