@@ -1,0 +1,12 @@
+{
+    // Required
+    "manifest_version": 1,
+    "name": "Screen Blocker",
+    "version": "0.1",
+  
+    // Recommended
+    // "action": {...},
+    "default_locale": "en",
+    "description": "Block a screen for a set time",
+    // "icons": {...},
+}
