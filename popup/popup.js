@@ -19,14 +19,29 @@ document.addEventListener("DOMContentLoaded", (event) => {
         p.innerHTML = arg.target.value
     }
 
-    submit.addEventListener('click', () => setTimeout(countDown, Number(p)));
+    submit.addEventListener('click', () => countDown());
+    //  submit.addEventListener('click', () => console.log(Number(p.innerHTML)));
 
     function countDown(){
-        console.log(Number(p));
+        console.log()
+        setTimeout(() => console.log('hi'), 1000 * Number(p.innerHTML));
+        // console.log("go study");
     }
 
+    // inputbox.addEventListener('input', updateValue());
 
-}) 
+    // function updateValue(arg){
+    //     // p.innerHTML = arg.target.value
+    //     submit.addEventListener('click', () => setTimeout(() => console.log(arg), arg));
+    // }
+
+
+    // function countDown(){
+    //     console.log(Number(p));
+    // }
+
+
+});
 
 
 /*

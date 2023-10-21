@@ -1,8 +1,8 @@
-// document.addEventListener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
     
-//     // const backgroundForTimer = document.querySelector('.backgroundForTimer');
-//     // const timerContainer = document.createElement('div'); 
-//     // timerContainer.setAttribute('class', 'timer-container')
-//     // backgroundForTimer.appendChild(timerContainer); 
+    const backgroundForTimer = document.querySelector('.backgroundForTimer');
+    const timerContainer = document.createElement('div'); 
+    timerContainer.setAttribute('class', 'timer-container')
+    backgroundForTimer.appendChild(timerContainer); 
     
-// });
+});
