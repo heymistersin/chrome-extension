@@ -3,6 +3,7 @@
   "name": "screen-blocker",
   "version": "1.0.0",
   "description": "\"Block a screen for a set time\"",
+  "action": {"default_popup": "popup/popup.html"},
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -10,12 +11,3 @@
     }
   ]
 }
-  // "author": "Daniel Sin, Ando Agamalian"
-
-  // "scripts": {
-  //   "test": "echo \"Error: no test specified\" && exit 1"
-  // },
-  // "keywords": [
-  //   "productivity"
-  // ],
-  // "license": "ISC"
